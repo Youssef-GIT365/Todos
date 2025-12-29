@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todos - Pro Version</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="todoapp">
+      <header class="header">
+        <h1>Todos</h1>
+        <input
+          class="new-todo"
+          id="todoInput"
+          placeholder="What needs to be done?"
+          autofocus
+        />
+        <input
+          class="search-todo"
+          id="searchInput"
+          placeholder="Search for a task..."
+        />
+        <input type="checkbox" id="markAll" /><span id="markAllText"
+          >Mark All As Complete</span
+        >
+      </header>
+
+      <section class="main">
+        <ul class="todo-list" id="todoList"></ul>
+      </section>
+
+      <footer class="footer">
+        <div class="stats">
+          All: <span id="allCount">0</span>  Completed:
+          <span id="completedCount">0</span>  Deleted:
+          <span id="deletedCount">0</span>
+        </div>
+        <div class="clear-completed" id="clearCompleted">Clear Completed</div>
+      </footer>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
