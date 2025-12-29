@@ -116,6 +116,9 @@ li.editing .destroy {
 #markAll{
     margin-right: 10px;
 }
+.toggle{
+  margin-left: 10px;
+}
 @media (max-width: 600px) {
   h1 {
     font-size: 40px;
@@ -124,4 +127,5 @@ li.editing .destroy {
     width: 95%;
   }
 }
+
 
