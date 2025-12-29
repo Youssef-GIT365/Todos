@@ -110,6 +110,12 @@ li.editing .toggle,
 li.editing .destroy {
   display: none;
 }
+.secound{
+    margin: 20px;
+}
+#markAll{
+    margin-right: 10px;
+}
 @media (max-width: 600px) {
   h1 {
     font-size: 40px;
@@ -118,3 +124,4 @@ li.editing .destroy {
     width: 95%;
   }
 }
+
